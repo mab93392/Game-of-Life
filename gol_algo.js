@@ -71,4 +71,4 @@ function arr(size) {
 }
     
 
-
+console.log(gol(6))
