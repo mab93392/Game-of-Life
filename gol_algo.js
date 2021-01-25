@@ -136,22 +136,22 @@ window.addEventListener("load", ()=> {
     }
 
     // "off" protocol
-    function off(grid){
+    function off(){
         clearInterval(intID) 
     }
     
     onbtn.addEventListener("click", e =>{
-        on(run)
+        on()
     });
 
 
     offbtn.addEventListener("click", e =>{
-        clearInterval(intID)
+        off()
         
     })
     
     rbtn.addEventListener("click", e =>{
-        refresh(run)
+        refresh()
     })
     
 
